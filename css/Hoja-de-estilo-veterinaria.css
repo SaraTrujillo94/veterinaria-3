@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.cabecera{
+    padding: 0.3rem;
+}
+
+
+.Categoria1{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(102, 102, 102);
+    width: 84rem;
+    height: 20rem;
+    border-radius: 1.5rem;
+}
+
+.img1{
+    display: flex;
+    width: 84rem;
+    height: 15rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.Categoria2{
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+.minicate2{
+display: flex;
+flex-direction: row;
+font-size: 1.5rem;
+width: 100%;
+justify-content: center;
+padding: 1.5rem;
+}
+.letra-menu{
+    padding-right: 5rem;
+}
+.linea-menu{
+    padding-right:3rem ;
+    font-size: 2rem;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+ 
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding:0 0 0 1rem;
+}
+
+.segundo-contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    margin-right:rem ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.art1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(177, 177, 177, 0.918);
+    width: 45rem;
+    height: 10rem;
+    padding: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.titulo1{
+    text-align: center;
+}
+.ver{
+    color: rgb(0, 0, 128);
+}
+.cuadrodetexto{
+display: flex;
+flex-direction: row;
+}
+
+.imagen-perrito1{
+    width: 8rem;
+    height: 8rem;
+    border-radius:1rem;
+    border: 2px solid black;
+    margin-left: 0.5rem;
+}
+
+.art2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(177, 177, 177, 0.918);
+    width: 45rem;
+    height: 10rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem; 
+}
+
+.tercer-contenedor{
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pedir-cita{
+    display: flex;
+    flex-direction: column;
+    width: 21.7rem;
+    height: 10rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem; 
+}
+
+.solicitar-cita{
+color: white;
+display: flex;
+font-size: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: rgb(0, 0, 0);
+ width: 20rem;
+ height: 10rem;
+ padding: 0.8rem;
+ justify-content: center;
+ border-top-left-radius: 1.5rem;
+ border-top-right-radius: 1.5rem; 
+}
+.contenedores-lista{
+    width: 19.6rem;
+    display: flex; 
+    color: white;
+    padding: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    background-color: rgb(100, 95, 95);
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+input{
+    padding: 0.4rem;
+    width: 10rem;
+}
+
+.ara{
+    margin-left: 1.5em;
+    margin-top: 1rem;
+}
+.ara2{
+    margin-left: 2.7rem;
+    margin-top: 1rem;
+}
+.ara3{
+    margin-left: 2.8rem;
+    margin-top: 1rem;
+}
+.ara4{
+    margin-left: 2.3rem;
+    margin-top: 1rem;
+}
+.ara5{
+  margin-left: 5.5rem;
+  margin-top: 2rem;
+}
+footer{
+    background-color: black;
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    font-size: 1rem;
+
+}
+.textofinal{
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+align-items: center;  
+}
+
